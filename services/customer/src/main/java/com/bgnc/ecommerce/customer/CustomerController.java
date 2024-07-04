@@ -44,7 +44,7 @@ public class CustomerController {
 
     }
 
-    @GetMapping("/exist/{customer-id}")
+    @GetMapping("/{customer-id}")
     public ResponseEntity<CustomerResponse> findById(@PathVariable("customer-id")
                                               String customerId) {
 

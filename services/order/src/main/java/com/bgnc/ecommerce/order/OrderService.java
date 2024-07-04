@@ -12,6 +12,8 @@ public class OrderService {
 
     public Integer createOrder(OrderRequest request) {
 
+
+
         // Todo check the first customer
     }
 }
